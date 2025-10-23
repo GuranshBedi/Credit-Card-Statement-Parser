@@ -28,7 +28,7 @@ const CreditCardParser = () => {
     "Kotak Mahindra Bank",
   ];
 
-  const API_URL = "http://localhost:5000/api/parse";
+  const API_URL = 'https://credit-card-statement-parser-auxt.onrender.com/api/parse';
 
   const handleFileUpload = async (e) => {
     const uploadedFile = e.target.files[0];
